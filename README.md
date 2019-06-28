@@ -1,24 +1,40 @@
-# README
+# mise en ++
+A single page web app designed to help with your kitchen adventures!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![Screenshot](https://i.imgur.com/p9mCAIP.png)
 
-Things you may want to cover:
+https://miseenplus.herokuapp.com/
 
-* Ruby version
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-* System dependencies
+## Motivation
 
-* Configuration
+We wanted to create something to help stay organized when it came to cooking multiple dishes and keeping track of their respective ingredients and instructions.
 
-* Database creation
+## Tech stack
 
-* Database initialization
+<b>Built with</b>
+- [React.js](https://reactjs.org/) Frontend
+- [Ruby on Rails](https://rubyonrails.org/) Backend 
+- [Semantic](https://react.semantic-ui.com/)
 
-* How to run the test suite
+## Features
 
-* Services (job queues, cache servers, search engines, etc.)
+- dynamic to-do lists separated by stage to more easily keep track of recipe ingredients / instructions
+- homemade API for recipes, ingredients, and instructions
+  
+## Installation
 
-* Deployment instructions
+1. Go to https://github.com/jyan95/project-mise-en-plusplus
+2. Clone the repository and navigate to `/backend`, and run `gem install bundler`, then `bundle`
+3. run `rails db:migrate` and `rails db:seed`, then run `rails s` (it will default to http://localhost:3000)
+4. navigate to `/frontend` and run `npm install`, then `npm start` - it will prompt you to run on another port, hit `y`
+5. if it does not automatically open in your browser, navigate to http://localhost:3001
 
-* ...
+### Contributors
+[sungchaan](https://github.com/sungchaan), [jyan95](https://github.com/jyan95)
+
+### License
+This code is free to use under the terms of the MIT license.
+
+
